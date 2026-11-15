@@ -1,0 +1,13 @@
+.venv/
+data/
+.env
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 新版看板的导出数据很小（几 KB），需要提交，部署时用
+!web/public/data/
+!web/dist/data/
+
+node_modules/
