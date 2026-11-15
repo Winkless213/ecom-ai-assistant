@@ -134,8 +134,8 @@ export function OfflineAiNotice() {
           <CardTitle className="text-base">这一页需要后端接口</CardTitle>
         </CardHeader>
         <CardContent className="text-sm leading-relaxed text-muted-foreground">
-          当前打开的是静态演示，经营总览、用户转化、用户分层和品类分析可以直接看。问数、周报和客服要在本地启动接口后再用：
-          <code className="mx-1 rounded bg-muted px-1.5 py-0.5 font-mono text-xs">uvicorn api.web:app --port 8600</code>
+          当前打开的是静态演示，经营总览、用户转化、用户分层和品类分析可以直接看。问数、周报和客服要在本地启动接口后再用。
+          <code className="mt-2 block overflow-x-auto rounded bg-muted px-2 py-1.5 font-mono text-xs text-foreground">uvicorn api.web:app --port 8600</code>
         </CardContent>
       </Card>
     </Section>
